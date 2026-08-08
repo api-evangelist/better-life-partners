@@ -1,17 +1,35 @@
 aid: better-life-partners
 name: Better Life Partners
-description: 'Better Life Partners is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Better Life Partners is a Hanover, New Hampshire healthcare provider
+  founded in 2018 that delivers same-day, whole-person treatment for opioid and alcohol
+  use disorder across New Hampshire, Maine, Massachusetts, Vermont and North Carolina.
+  It combines FDA-approved medication for addiction treatment (buprenorphine/Suboxone,
+  naltrexone) with group counseling, peer recovery coaching and mental health care,
+  delivered both virtually and in person, on a non-punitive harm-reduction model. The
+  company contracts directly with Medicaid, Medicare and commercial health plans —
+  MaineCare, NH Healthy Families, Anthem, Cigna, Harvard Pilgrim, Tufts, Humana and
+  UnitedHealthcare — and markets value-based arrangements "from bundles to full risk"
+  to payers and community partners. It is a clinical services organization rather than
+  a software vendor: it references "purpose-built technology" internally but publishes
+  no developer program, API, specification, SDK or integration documentation of any
+  kind.'
+image: https://betterlifepartners.com/wp-content/uploads/2026/07/logo-menu.svg
 url: https://raw.githubusercontent.com/api-evangelist/better-life-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-07'
 modified: '2026-08-07'
 tags:
 - Company
+- Healthcare
+- Behavioral Health
+- Addiction Treatment
+- Substance Use Disorder
+- Telehealth
+- Mental Health
+- Value-Based Care
+- Health Plans
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +38,85 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://betterlifepartners.com/
+- type: Blog
+  url: https://betterlifepartners.com/blog/
+- type: BlogRSS
+  url: https://betterlifepartners.com/feed/
+- type: Support
+  url: https://betterlifepartners.com/get-in-touch/
+- type: Contact
+  url: https://betterlifepartners.com/contact/
+- type: FAQ
+  url: https://betterlifepartners.com/faqs/
+- type: Pricing
+  url: https://betterlifepartners.com/how-much/
+- type: SignUp
+  url: https://betterlifepartners.com/get-started/
+- type: PrivacyPolicy
+  url: https://betterlifepartners.com/privacy-policy/
+- type: KnowledgeBase
+  url: https://betterlifepartners.com/resources/
+- type: Partners
+  url: https://betterlifepartners.com/partners/
+- type: Careers
+  url: https://betterlifepartners.com/careers/
+- type: Team
+  url: https://betterlifepartners.com/leadership-team/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/better-life-partners/
+- type: SecondaryMarket
   url: https://forgeglobal.com/better-life-partners_stock/
+- type: DomainSecurity
+  url: security/better-life-partners-domain-security.yml
+- type: LLMsTxt
+  url: llms/better-life-partners-llms.txt
+x-evidence:
+  fetched: '2026-08-07'
+  note: 'No machine-readable contract of any kind was found. STEP 0b contract discovery
+    was run against betterlifepartners.com and every plausible API/docs subdomain: api.,
+    developer., developers., docs., app., portal., status. and trust..betterlifepartners.com
+    do not resolve in DNS (curl exit 6). On the marketing host, /openapi.json, /openapi.yaml,
+    /swagger.json, /v1/openapi.json, /api-docs, /docs, /redoc, /graphql, /api, /llms.txt
+    and every /.well-known/ path (security.txt, openid-configuration, oauth-authorization-server,
+    oauth-protected-resource, api-catalog, ai-plugin.json, agent-card.json, agent.json,
+    mcp.json) each returned HTTP 404. The only machine-readable endpoint on the domain
+    is the WordPress core /wp-json/ CMS route of the marketing site, which is the Yoast/WordPress
+    content API of the brochureware — not a product API — and was deliberately not registered.
+    Apparent "API" and "developer" strings on /partners/ and /refer-a-member/ are false
+    positives from an embedded HubSpot forms script (js.hsforms.net/forms/embed/developer/)
+    and a WordPress HubSpot plugin query parameter, not an API surface. Two GitHub organizations
+    exist — github.com/better-life-partners (named "Better Life Partners", created 2019)
+    and github.com/betterlifepartners (unnamed, created 2024) — both with 0 public repositories,
+    so no GitHubOrganization pointer was emitted. No first-party package was found on
+    npm or PyPI.'
+x-enrichment:
+  date: '2026-08-07'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Better Life Partners is a clinical addiction-treatment provider running virtual
+    and in-person MAT clinics in five states; its entire public surface is a WordPress
+    marketing site whose only machine-readable route is the WordPress /wp-json/ CMS
+    API, and no api./developer./docs. host exists in DNS at all.
+  evidence:
+  - url: https://betterlifepartners.com/
+    status: 200
+  - url: https://api.betterlifepartners.com/
+    status: 0
+  - url: https://docs.betterlifepartners.com/
+    status: 0
+  - url: https://betterlifepartners.com/openapi.json
+    status: 404
+  - url: https://betterlifepartners.com/llms.txt
+    status: 404
+  - url: https://betterlifepartners.com/.well-known/security.txt
+    status: 404
+  - url: https://betterlifepartners.com/.well-known/agent-card.json
+    status: 404
+  - url: https://betterlifepartners.com/.well-known/api-catalog
+    status: 404
+  checked: '2026-08-07'
