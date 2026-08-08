@@ -1,0 +1,63 @@
+# Better Life Partners
+
+> Better Life Partners is a Hanover, New Hampshire healthcare provider founded in 2018
+> that delivers same-day, whole-person treatment for opioid and alcohol use disorder
+> across New Hampshire, Maine, Massachusetts, Vermont and North Carolina. It combines
+> FDA-approved medication for addiction treatment with group counseling, peer recovery
+> coaching and mental health care, delivered both virtually and in person.
+
+This file is maintained by API Evangelist (https://apievangelist.com) as a third-party
+profile. Better Life Partners does not publish an `llms.txt` of its own — `/llms.txt`
+returned HTTP 404 on 2026-08-07.
+
+## API surface
+
+Better Life Partners publishes **no API, no specification, no SDK and no developer
+program**. It is a clinical services organization, not a software vendor. No
+`api.`, `developer.`, `developers.`, `docs.`, `app.`, `portal.`, `status.` or `trust.`
+subdomain resolves in DNS. Every OpenAPI/Swagger/GraphQL and `/.well-known/` probe
+against `betterlifepartners.com` returned 404 on 2026-08-07. Do not attempt to call an
+API for this company — there is not one to call.
+
+## Company
+
+- [Home](https://betterlifepartners.com/): Same-day medication for addiction treatment, plus community support.
+- [Our approach](https://betterlifepartners.com/our-approach/): Non-punitive, harm-reduction, whole-person care model.
+- [How it works](https://betterlifepartners.com/how-it-works/): What a member's care journey looks like.
+- [Locations](https://betterlifepartners.com/locations/): Clinics and virtual coverage by state.
+- [Leadership team](https://betterlifepartners.com/leadership-team/): Executive and clinical leadership.
+- [Careers](https://betterlifepartners.com/careers/): Open roles.
+
+## Care
+
+- [Addiction treatment](https://betterlifepartners.com/addiction-treatment/): Substance use disorder treatment overview.
+- [Medication-assisted treatment](https://betterlifepartners.com/medication-assisted-treatment/): FDA-approved medication plus counseling and peer coaching.
+- [Opioid addiction treatment](https://betterlifepartners.com/opioid-addiction-treatment/): Same-day buprenorphine-based OUD care.
+- [Alcohol treatment](https://betterlifepartners.com/alcohol-treatment/): Alcohol use disorder treatment.
+- [Addiction counseling](https://betterlifepartners.com/addiction-counseling/): Individual and group counseling.
+- [Mental health](https://betterlifepartners.com/mental-health/): Co-occurring mental health services.
+
+## Partners and payers
+
+- [Partners](https://betterlifepartners.com/partners/): Community and provider partnerships.
+- [Health plans](https://betterlifepartners.com/health-plans/): Value-based arrangements, from bundles to full risk.
+- [Refer a member](https://betterlifepartners.com/refer-a-member/): Referral intake form (web form only — no referral API).
+- [How much it costs](https://betterlifepartners.com/how-much/): Coverage, Medicaid, Medicare and commercial insurance.
+
+## Get started and support
+
+- [Get started](https://betterlifepartners.com/get-started/): Enrollment pathway.
+- [Get in touch](https://betterlifepartners.com/get-in-touch/): Contact and support.
+- [FAQs](https://betterlifepartners.com/faqs/): Frequently asked questions.
+- [Resources](https://betterlifepartners.com/resources/): Recovery resources library.
+- [Blog](https://betterlifepartners.com/blog/): Company and recovery blog ([RSS](https://betterlifepartners.com/feed/)).
+
+## Legal
+
+- [Privacy policy](https://betterlifepartners.com/privacy-policy/)
+- [Confidentiality and privacy practices statement](https://betterlifepartners.com/confidentiality-and-privacy-practices-statement/)
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/providers/better-life-partners/): Independent third-party profile and Kin Score.
+- [Forge Global secondary listing](https://forgeglobal.com/better-life-partners_stock/)

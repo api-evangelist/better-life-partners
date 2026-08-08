@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Better Life Partners is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Better Life Partners is a Hanover, New Hampshire healthcare provider founded in 2018 that delivers same-day, whole-person treatment for opioid and alcohol use disorder across New Hampshire, Maine, Massachusetts, Vermont and North Carolina — FDA-approved medication for addiction treatment combined with group counseling, peer recovery coaching and mental health care, delivered virtually and in person on a non-punitive harm-reduction model. It contracts directly with Medicaid, Medicare and commercial health plans and markets value-based arrangements to payers.
+
+It is a clinical services organization, not a software vendor: as of 2026-08-07 it publishes **no API, specification, SDK or developer program**, and no `api.`/`developer.`/`docs.` host resolves. See `x-coverage` in `apis.yml` for the probed evidence.
+
+- https://betterlifepartners.com/
 - https://forgeglobal.com/better-life-partners_stock/
