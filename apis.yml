@@ -13,6 +13,17 @@ description: 'Better Life Partners is a Hanover, New Hampshire healthcare provid
   a software vendor: it references "purpose-built technology" internally but publishes
   no developer program, API, specification, SDK or integration documentation of any
   kind.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://betterlifepartners.com/wp-content/uploads/2026/07/logo-menu.svg
 url: https://raw.githubusercontent.com/api-evangelist/better-life-partners/refs/heads/main/apis.yml
 x-type: company
